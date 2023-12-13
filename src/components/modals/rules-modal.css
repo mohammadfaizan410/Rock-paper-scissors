@@ -17,7 +17,7 @@
     width: 400px;
     height: 300px;
     position: relative;
-    background:  url('../../../images/image-rules.svg') no-repeat center;
+    background:  url('../../../public/images/image-rules.svg') no-repeat center;
 }
 
 .rules-modal-wrapper{
@@ -53,7 +53,6 @@
         width: 300px;
         height: 300px;
         position: relative;
-        background:  url('../../../images/image-rules.svg') no-repeat center;
     }
 
     .rules-modal{

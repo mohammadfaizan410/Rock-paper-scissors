@@ -15,7 +15,7 @@
   }
 
 .game-logo{
-    background: url('../../../images/logo.svg') no-repeat;
+    background: url('../../../public/images/logo.svg') no-repeat;
     background-size: contain;
     width: 150px;
     height: 150px;

@@ -12,14 +12,14 @@
 }
 
 .stage-1-paper{
-    background:  url("../../../images/icon-paper.svg") no-repeat center;
+    background:  url("../../../public/images/icon-paper.svg") no-repeat center;
     background-size: contain;
     width: 100px;
     height: 100px;
     cursor: pointer;
 }
 .stage-1-scissor{
-    background: url("../../../images/icon-scissors.svg") no-repeat center;
+    background: url("../../../public/images/icon-scissors.svg") no-repeat center;
     background-size: contain;
     width: 100px;
     height: 100px;
