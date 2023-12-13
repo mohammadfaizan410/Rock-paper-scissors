@@ -1,0 +1,34 @@
+.score-card-wrapper{
+    background-color: white;
+    width: 20%;
+    height: 17vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.score-card-title{
+    color: hsl(229, 64%, 46%);
+    font-size: 1.5rem;
+}
+
+.score-card-score{
+    color: hsl(229, 25%, 31%);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px) {
+    .score-card-wrapper{
+        width: 30%;
+        height: 10vh;
+    }
+    .score-card-title{
+        font-size: 1rem;
+    }
+    .score-card-score{
+        font-size: 2rem;
+    }
+}

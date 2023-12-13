@@ -1,0 +1,290 @@
+.stage2-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: min-content;
+    width: 100vh;
+    margin: auto;
+    margin-top : 50px;
+    gap: 50px;
+}
+
+.stage-2-paper{
+    background:  url("../../../images/icon-paper.svg") no-repeat center;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.stage-2-scissor{
+    background: url("../../../images/icon-scissors.svg") no-repeat center;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.stage-2-rock{
+    background: url("../../../images/icon-scissors.svg") no-repeat center;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.icon-wrapper-paper-2{
+    z-index: 999;
+    padding: 10px;
+    /* hsl(230, 89%, 62%) to hsl(230, 89%, 65%) */
+    background : linear-gradient(90deg, hsl(230, 89%, 62%) 0%, hsl(230, 89%, 65%) 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-wrapper-scissor-2{
+    padding: 10px;
+    z-index: 999;
+    /* hsl(39, 89%, 49%) to hsl(40, 84%, 53%) */
+    background : linear-gradient(90deg, hsl(39, 89%, 49%) 0%, hsl(40, 84%, 53%) 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-wrapper-rock-2{
+    z-index: 999;
+    padding: 10px;
+    /* hsl(349, 71%, 52%) to hsl(349, 70%, 56%) */
+    background : linear-gradient(90deg, hsl(349, 71%, 52%) 0%, hsl(349, 70%, 56%) 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-wrapper-paper-inner-2{
+    padding: 10px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-wrapper-scissor-inner-2{
+    padding: 10px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-wrapper-rock-inner-2{
+    padding: 10px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: hsl(230, 89%, 15%);
+}
+.pick-title{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+.play-again-btn{
+    background-color: white;
+    color: hsl(0, 87%, 64%);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: -20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.result-title{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.result-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .stage2-wrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: min-content;
+        width: 100vw;
+        margin: auto;
+        margin-top : 20vh;
+        gap: 10px;
+    }
+    
+    .stage-2-paper{
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+    }
+    .stage-2-scissor{
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+    }
+    .stage-2-rock{
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .icon-wrapper-paper-2{
+        z-index: 999;
+        padding: 10px;
+        /* hsl(230, 89%, 62%) to hsl(230, 89%, 65%) */
+        background : linear-gradient(90deg, hsl(230, 89%, 62%) 0%, hsl(230, 89%, 65%) 100%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-wrapper-scissor-2{
+        padding: 10px;
+        z-index: 999;
+        /* hsl(39, 89%, 49%) to hsl(40, 84%, 53%) */
+        background : linear-gradient(90deg, hsl(39, 89%, 49%) 0%, hsl(40, 84%, 53%) 100%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-wrapper-rock-2{
+        z-index: 999;
+        padding: 10px;
+        /* hsl(349, 71%, 52%) to hsl(349, 70%, 56%) */
+        background : linear-gradient(90deg, hsl(349, 71%, 52%) 0%, hsl(349, 70%, 56%) 100%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .icon-wrapper-paper-inner-2{
+        padding: 10px;
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-wrapper-scissor-inner-2{
+        padding: 10px;
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-wrapper-rock-inner-2{
+        padding: 10px;
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .placeholder{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: hsl(230, 89%, 15%);
+    }
+    .pick-title{
+        color: white;
+        font-size: 11px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    
+    }
+    
+    .play-again-btn{
+        background-color: white;
+        color: hsl(0, 87%, 64%);
+        font-size: 13px;
+        font-weight: 700;
+        padding: 4px 8px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        margin-top: -20px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .result-title{
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    
+    .result-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+};
+
